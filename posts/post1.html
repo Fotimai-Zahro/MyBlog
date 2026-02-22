@@ -25,40 +25,32 @@
     <article class="post-container">
       <div class="container">
         <header class="post-header">
-          <h1>Quotes from "The Art Of Laziness"</h1>
-          <p class="post-meta">January 27, 2026</p>
+          <h1>My First Step into ML"</h1>
+          <p class="post-meta">February 22, 2026</p>
         </header>
 
         <div class="post-content">
           <p>
-            One day you will wake up, and there won't be any more time to do the
-            things you're always wanted. Do it now
+            When learning Machine Learning, you need a real-world project to put theory into practice. As my first project, I chose the Titanic dataset — a classic and convenient starting point for those just getting into ML.
           </p>
           <p>
-            If you want to find a solution, you will find it; it's not that a
-            solution doesn't exist. It exists, and you know it deep inside of
-            your heart.
+            The main goal of the project was to predict whether a passenger survived the Titanic based on their information (age, gender, ticket class, etc.). To do this, I built two classification models — Logistic Regression and Decision Tree, and compared them.
           </p>
-          <p>Stop being dependent on other people.</p>
-          <p>If you're unhappy, it's your fault.</p>
+          <p>The dataset consists of 8 columns about 887 passengers: survival status, ticket class, name, gender, age, number of relatives, and price paid. I first dug deep into the data. I found several interesting patterns: the overall survival rate was only 38.56%. The gender gap is huge — 74.20% of women survived, while only 19.02% of men survived.  Ticket class also played a significant role: 62.96% of 1st class passengers survived, 47.28% of 2nd class passengers survived, and 24.44% of 3rd class passengers survived.</p>
+          <p>Before training the models, I processed the data. I converted the text values ​​in the gender column to numbers, created a new feature to calculate family size, and selected the 6 most important columns for the models: ticket class, gender, age, price, family size, and single status.</p>
           <p>
-            Even if you fail, that will still be better than the regret of never
-            trying go to push your boundaries.
+            I divided the data into 80% training and 20% test. The Logistic Regression model showed 76.40% accuracy. The Decision Tree model achieved 79.78% accuracy and was the winner. I visualized the results of both models using a confusion matrix and analyzed where they were making mistakes.
           </p>
           <p>
-            All of humanity's problems stem from our inability to sit quietly in
-            a room alone.
+            This project taught me not only how to write code, but also how to read data, make sense of it, and interpret the results. I also experienced the importance of Exploratory Data Analysis (EDA). If you don't understand the data well before building a model, the results won't be accurate. 
+          </p>
+          <p>The project code is openly available on:</p>
+          <p>
+           <a href="https://github.com/Fotimai-Zahro/Titanic_Competition" target="_blank">GitHub</a>
           </p>
           <p>
-            It may seem difficult at first, but everything is difficult at
-            first.
+           <a href="https://colab.research.google.com/drive/16H0Ulk-bJdFBXOCOARcV06VsgAY96mzt?usp=sharing" target="_blank">Google Colab</a>
           </p>
-          <p>
-            If you allow yourself 2 hours to finish a task, it will take 2
-            hours, but if you only have 1 hour, you will find a way to complete
-            the task in an hour.
-          </p>
-          <p>Time is running out. Start living!</p>
         </div>
 
         <div class="post-navigation">
@@ -72,7 +64,7 @@
         <div class="footer-content">
           <div class="social-links">
             <h4>Follow Me</h4>
-            <a href="https://github.com/NuriddinovaFotima" target="_blank"
+            <a href="https://github.com/Fotimai-Zahro" target="_blank"
               >GitHub</a
             >
             <a href="https://linkedin.com/in/fotima-nuriddinova" target="_blank"
